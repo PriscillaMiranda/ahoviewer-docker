@@ -2,7 +2,6 @@ FROM debian:latest
 
 # Install dependencies
 RUN apt-get update && apt-get install -y -q --no-install-recommends \
-    wget \
     git \
     clang \
     make \
