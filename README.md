@@ -5,7 +5,7 @@ Usable with [x11docker](https://github.com/mviereck/x11docker).
 
 ## Build Dockerfile
 
-I included a shellcript to build the image.
+I included a shellscript to build the image.
 Just run `buildDockerImage.zsh`.
 
 ## Start ahoviewer
