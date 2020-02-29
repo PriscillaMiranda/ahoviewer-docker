@@ -1,5 +1,10 @@
 FROM debian:latest
 
+ARG VCS_REF
+
+LABEL org.label-schema.vcs-ref=$VCS_REF \
+      org.label-schema.vcs-url="https://github.com/PriscillaMiranda/ahoviewer-docker"
+
 # Install dependencies
 RUN apt-get update && apt-get install -y -q --no-install-recommends \
     ca-certificates \
